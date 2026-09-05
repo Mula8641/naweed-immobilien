@@ -29,7 +29,12 @@
     "unit": "Unit",
     "per_month": "/ month",
     "no_units": "No units in this building yet.",
-    "contact_admin": "Contact us to enquire about this unit."
+    "contact_admin": "Contact us to enquire about this unit.",
+    "view_details": "View Details",
+    "facilities": "Facilities",
+    "enquire": "Enquire about this unit",
+    "unit_available": "unit available",
+    "units_available": "units available"
   },
   "faq": {
     "title": "Frequently Asked Questions",

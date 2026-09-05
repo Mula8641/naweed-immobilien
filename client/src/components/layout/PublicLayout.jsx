@@ -6,7 +6,7 @@ export default function PublicLayout({ children }) {
       <Navbar />
       <main className="flex-1">{children}</main>
       <footer className="bg-gray-800 text-gray-400 text-center text-sm py-6">
-        © {new Date().getFullYear()} Naweed Immobilien. All rights reserved.
+        © {new Date().getFullYear()} RealEstate. All rights reserved.
       </footer>
     </div>
   )

@@ -29,7 +29,12 @@
     "unit": "Einheit",
     "per_month": "/ Monat",
     "no_units": "Noch keine Einheiten in diesem Gebäude.",
-    "contact_admin": "Kontaktieren Sie uns für Anfragen zu dieser Einheit."
+    "contact_admin": "Kontaktieren Sie uns für Anfragen zu dieser Einheit.",
+    "view_details": "Details anzeigen",
+    "facilities": "Ausstattung",
+    "enquire": "Anfrage für diese Wohnung",
+    "unit_available": "Einheit verfügbar",
+    "units_available": "Einheiten verfügbar"
   },
   "faq": {
     "title": "Häufig gestellte Fragen",

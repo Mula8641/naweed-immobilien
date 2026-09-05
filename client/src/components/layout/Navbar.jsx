@@ -17,9 +17,9 @@ export default function Navbar() {
     <nav className="bg-white shadow-sm border-b border-gray-200">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between h-16 items-center">
-          <Link to="/" className="flex items-center gap-2">
-            <span className="text-2xl font-bold text-primary-700">Naweed</span>
-            <span className="text-sm text-gray-500 font-medium hidden sm:block">Immobilien</span>
+          <Link to="/" className="flex items-center gap-0.5">
+            <span className="text-2xl font-bold text-primary-700">Real</span>
+            <span className="text-2xl font-bold text-gray-800">Estate</span>
           </Link>
 
           <div className="flex items-center gap-6">
