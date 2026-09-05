@@ -114,6 +114,25 @@
     "question_de": "Question (German)",
     "answer_de": "Answer (German)"
   },
+  "contact": {
+    "title": "Contact Us",
+    "subtitle": "Choose the way that suits you best — we usually respond within 24 hours.",
+    "email_label": "Send an Email",
+    "email_hint": "Click to open your email client",
+    "whatsapp_label": "Chat on WhatsApp",
+    "whatsapp_hint": "We're available Mon–Fri, 9 am–6 pm",
+    "form_title": "Send us a Message",
+    "name": "Full Name",
+    "email": "Email Address",
+    "phone": "Phone (optional)",
+    "message": "Message",
+    "message_placeholder": "I am interested in this unit and would like to arrange a viewing...",
+    "submit": "Send Message",
+    "form_note": "Your message will be prepared in your email client for sending.",
+    "sent_title": "Email client opened!",
+    "sent_subtitle": "Please send the pre-filled email from your email app.",
+    "send_another": "Send another message"
+  },
   "common": {
     "loading": "Loading...",
     "error": "An error occurred.",

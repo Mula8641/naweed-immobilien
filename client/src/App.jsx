@@ -7,6 +7,7 @@ import Home       from './pages/public/Home.jsx'
 import Properties from './pages/public/Properties.jsx'
 import FAQ        from './pages/public/FAQ.jsx'
 import Login      from './pages/public/Login.jsx'
+import Contact    from './pages/public/Contact.jsx'
 
 // Tenant pages
 import TenantDashboard from './pages/tenant/TenantDashboard.jsx'
@@ -30,6 +31,7 @@ export default function App() {
         <Route path="/properties" element={<Properties />} />
         <Route path="/faq"        element={<FAQ />} />
         <Route path="/login"      element={<Login />} />
+        <Route path="/contact"    element={<Contact />} />
 
         {/* Tenant */}
         <Route path="/dashboard" element={<ProtectedRoute role="tenant"><TenantDashboard /></ProtectedRoute>} />

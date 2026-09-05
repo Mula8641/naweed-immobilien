@@ -114,6 +114,25 @@
     "question_de": "Frage (Deutsch)",
     "answer_de": "Antwort (Deutsch)"
   },
+  "contact": {
+    "title": "Kontakt",
+    "subtitle": "Wählen Sie den Weg, der Ihnen am besten passt — wir antworten in der Regel innerhalb von 24 Stunden.",
+    "email_label": "E-Mail senden",
+    "email_hint": "Klicken, um Ihren E-Mail-Client zu öffnen",
+    "whatsapp_label": "WhatsApp schreiben",
+    "whatsapp_hint": "Erreichbar Mo–Fr, 9–18 Uhr",
+    "form_title": "Nachricht senden",
+    "name": "Vollständiger Name",
+    "email": "E-Mail-Adresse",
+    "phone": "Telefon (optional)",
+    "message": "Nachricht",
+    "message_placeholder": "Ich interessiere mich für diese Wohnung und möchte gerne einen Besichtigungstermin vereinbaren...",
+    "submit": "Nachricht senden",
+    "form_note": "Ihre Nachricht wird in Ihrem E-Mail-Programm vorbereitet.",
+    "sent_title": "E-Mail-Programm geöffnet!",
+    "sent_subtitle": "Bitte senden Sie die vorausgefüllte E-Mail aus Ihrem E-Mail-Programm ab.",
+    "send_another": "Weitere Nachricht senden"
+  },
   "common": {
     "loading": "Wird geladen...",
     "error": "Ein Fehler ist aufgetreten.",

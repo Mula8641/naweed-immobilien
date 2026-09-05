@@ -1,5 +1,6 @@
 import { useState, useEffect } from 'react'
 import { useTranslation } from 'react-i18next'
+import { Link } from 'react-router-dom'
 import PublicLayout from '../../components/layout/PublicLayout.jsx'
 import Badge from '../../components/ui/Badge.jsx'
 import { getBuildings, getUnits } from '../../api/properties.js'
@@ -89,12 +90,13 @@ function UnitDetailModal({ unit, building, onClose, t }) {
 
           {/* CTA */}
           {unit.is_available ? (
-            <a
-              href={`mailto:info@realestate.de?subject=${encodeURIComponent(`Anfrage Wohnung ${unit.unit_number} – ${building.name}`)}`}
+            <Link
+              to={`/contact?unit=${encodeURIComponent(unit.unit_number)}&building=${encodeURIComponent(building.name)}`}
               className="block w-full text-center bg-primary-600 hover:bg-primary-700 text-white font-semibold py-3 rounded-xl transition-colors"
+              onClick={onClose}
             >
               {t('properties.enquire')}
-            </a>
+            </Link>
           ) : (
             <div className="w-full text-center bg-gray-100 text-gray-400 font-medium py-3 rounded-xl">
               {t('properties.occupied')}
