@@ -42,7 +42,9 @@ export default function TenantDashboard() {
             variant={latest?.status === 'paid' ? 'green' : 'red'}
           />
           {unpaidCount > 0 && (
-            <p className="text-xs text-red-500 mt-1">{unpaidCount} unpaid invoice(s)</p>
+            <p className="text-xs text-red-500 mt-1">
+              {unpaidCount === 1 ? t('tenant.unpaid_singular') : t('tenant.unpaid_plural', { count: unpaidCount })}
+            </p>
           )}
         </div>
       </div>

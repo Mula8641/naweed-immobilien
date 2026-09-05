@@ -57,9 +57,7 @@ function UnitDetailModal({ unit, building, onClose, t }) {
                 {t('properties.unit')} {unit.unit_number}
               </h2>
               <p className="text-sm text-gray-500 mt-0.5">
-                {unit.floor === 0
-                  ? 'Erdgeschoss'
-                  : `${unit.floor}. Obergeschoss`}
+                {unit.floor === 0 ? t('properties.ground_floor') : `${t('properties.floor')} ${unit.floor}`}
                 {' · '}{building.address}
               </p>
             </div>
